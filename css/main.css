@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  font: 14px 'Open Sans', sans-serif;
+  background: #eee;
+}
+
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 15px 25px;
+}
+
+.tab {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background-color: #9fce9f
+}
+
+.tab:before {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+.tabSelected {
+  color: #000;
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #fff;
+}
+
+.hiddenContent {
+  display: none; 
+}
